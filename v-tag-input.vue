@@ -1,5 +1,5 @@
 <template lang="html">
-  <input type="text" v-model="editableValue">
+  <input class="v-tag-input" type="text" v-model="editableValue">
 </template>
 
 <script>

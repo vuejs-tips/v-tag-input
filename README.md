@@ -45,6 +45,10 @@ export default {
 
 `npm i --save v-tag-input`
 
+## Other Tag Input
+
+- https://github.com/odiumediae/tagdog.js
+
 ## Contribution
 
 You're free to contribute to this project by submitting [issues](https://github.com/vuejs-tips/v-tag-input.svg/issues) and/or [pull requests](https://github.com/vuejs-tips/v-tag-input.svg/pulls). This project is test-driven, so keep in mind that every change and new feature should be covered by tests. Your name will be added to the hall of fame ;)
