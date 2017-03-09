@@ -6,7 +6,7 @@ Tiny tag input for Vue.js
 
 ## Demo
 
-https://jsfiddle.net/neves/7wenm8rv/4/
+https://jsfiddle.net/neves/7wenm8rv/5/
 
 ## Usage
 
@@ -56,5 +56,3 @@ You're free to contribute to this project by submitting [issues](https://github.
 ## License
 
 This project is licensed under [MIT License](http://en.wikipedia.org/wiki/MIT_License)
-
-Build inspired by [vue-plugin-template](https://github.com/posva/vue-plugin-template)

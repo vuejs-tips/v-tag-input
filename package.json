@@ -1,25 +1,23 @@
 {
   "name": "v-tag-input",
   "version": "0.0.1",
-  "description": "Vue.js tiny tag input control",
-  "homepage": "https://medium.com/vuejs-tips",
-  "author": "Marcos Neves <marcos.neves@gmail.com> (https://medium.com/vuejs-tips)",
+  "description": "A Vue.js component",
+  "author": "Marcos Neves <marcos.neves@gmail.com>",
   "main": "dist/v-tag-input.js",
   "license": "MIT",
+  "scripts": {
+    "dist": "vue build ./src/index.js --config ./build.config.js --dist ./dist/ --prod --lib",
+    "dist:demo": "vue build ./src/demo.vue --config ./build.config.js --dist ./demo/ --prod",
+    "build": "npm run dist -- --disable-compress",
+    "start": "npm run dev",
+    "dev": "vue build ./src/demo.vue --config ./build.config.js",
+    "demo:open": "open 'http://localhost:3000/'; serve ./demo/"
+  },
   "files": [
     "dist/"
   ],
-  "scripts": {
-    "dist": "vue build ./src/index.js --config ./build.config.js --dist ./dist/ --prod",
-    "build": "yarn dist -- --disable-compress",
-    "example:html": "open 'http://localhost:3000/examples/example.html'; serve .",
-    "example:vue": "vue build ./examples/example.vue --open"
-  },
   "keywords": [
     "vue",
-    "tag",
-    "input",
-    "component",
-    "control"
+    "component"
   ]
 }

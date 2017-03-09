@@ -21,7 +21,8 @@ export default {
         return (this.value || []).join(this.separator)
       },
       set (newValue) {
-        this.$emit('input', newValue.split(this.separator))
+        newValue = newValue.trim() ? newValue.split(this.separator) : []
+        this.$emit('input', newValue)
       }
     }
   }
