@@ -6,7 +6,8 @@ Tiny tag input for Vue.js
 
 ## Demo
 
-https://jsfiddle.net/neves/7wenm8rv/5/
+- https://jsfiddle.net/neves/7wenm8rv/5/
+- https://rawgit.com/vuejs-tips/v-tag-input/master/demo/index.html
 
 ## Usage
 
