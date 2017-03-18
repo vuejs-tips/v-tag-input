@@ -1,7 +1,7 @@
 {
   "name": "v-tag-input",
   "version": "0.0.3",
-  "description": "A Vue.js component",
+  "description": "Tag input component for Vue.js",
   "author": "Marcos Neves <marcos.neves@gmail.com>",
   "main": "dist/v-tag-input.js",
   "license": "MIT",
